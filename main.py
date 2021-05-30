@@ -22,7 +22,7 @@ if today == SUNDAY:
         )
         connection.sendmail(
             from_addr=MY_EMAIL,
-            to_addrs="zielzor@gmail.com",
+            to_addrs="recipient@gmail.com",
             msg=f"Subject:Quote of the day\n\n{random_quote}"
         )
 
